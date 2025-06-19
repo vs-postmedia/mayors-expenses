@@ -4,7 +4,7 @@ import { svelte } from '@sveltejs/vite-plugin-svelte';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/mayor-expenses/',
+  base: '/mayors-expenses/',
   // base: process.env.MODE === 'production' ? '/09xx-tfwp-story/' : '/',
   plugins: [svelte()],
   resolve: {
