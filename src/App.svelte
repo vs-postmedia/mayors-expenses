@@ -39,8 +39,8 @@
 <!-- MARKUP -->
 <section class="scrollyteller sticky">
     <header>
-        <h1>Office expenses growing under Sim administration</h1>
-        <p class="subhead">Annual expenses from the Mayors office for the city of Vancouver.</p>
+        <h1>Discretionary spending up under Sim</h1>
+        <p class="subhead">Annual expenses from the Vancouver mayor's office for the city of Vancouver. Staff salaries are excluded.</p>
     </header>
     <div class="chart sticky">
         <!-- svelte-ignore a11y-missing-attribute -->
@@ -82,7 +82,7 @@
         pointer-events: none;
     }
     .steps {
-        margin-top: -100%;
+        margin-top: -150%;
         position: relative;
         z-index: 2;
     }

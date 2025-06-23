@@ -18,7 +18,12 @@
 	color: #FFF;
 	padding: 1px 2px;
 }
-
+.purple-01 {
+	background-color: var(--dark_purple01);
+	border-radius: 2px;
+	color: #FFF;
+	padding: 1px 2px;
+}
 
 /* APP & CHART WRAPPER */
 #app {
@@ -55,7 +60,7 @@
 	text-align: center;
 }
 .scrollyteller .step:first-of-type {
-	margin-top: -25%;
+	margin-top: -55%;
 }
 .scrollyteller .step:last-of-type {
 	margin-bottom: 0;
