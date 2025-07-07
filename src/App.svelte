@@ -41,8 +41,8 @@
 <!-- MARKUP -->
 <section class="scrollyteller sticky">
     <header>
-        <h1>Discretionary spending up under Sim</h1>
-        <p class="subhead">Annual expenses from the Vancouver mayor's office for the city of Vancouver. Staff salaries are excluded.</p>
+        <h1>Mayor’s office costs up under Sim</h1>
+        <p class="subhead">Annual expenses from the Vancouver mayor's office for the city of Vancouver.</p>
     </header>
     <div class="chart sticky">
         <!-- svelte-ignore a11y-missing-attribute -->
