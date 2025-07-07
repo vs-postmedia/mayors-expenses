@@ -32,6 +32,8 @@
             updateStep(currentStep );
         } else if (currentStep === 3) {
             updateStep(currentStep);
+        } else if (currentStep === 4) {
+            updateStep(currentStep);
         }
     };
 </script>
@@ -82,7 +84,7 @@
         pointer-events: none;
     }
     .steps {
-        margin-top: -150%;
+        margin-top: -110%;
         position: relative;
         z-index: 2;
     }
