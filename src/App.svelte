@@ -13,7 +13,7 @@
     import Steps from '$components/Steps.svelte';
 
     // SET CHART HEIGH & URL HERE...
-    const chartHeight = '575px';
+    const chartHeight = '450px';
     const flourishStoryUrl = 'https://flo.uri.sh/story/3182108/embed';
 
     // FUNCTIONS
@@ -70,9 +70,6 @@
     /* STEPS */
     section {
         position: relative;
-    }
-    footer {
-        margin-top: 75px;
     }
     .sticky { 
         align-items: center;

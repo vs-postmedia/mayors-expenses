@@ -39,7 +39,7 @@
 /* APP & CHART WRAPPER */
 #app {
 	margin: 0 auto;
-	max-width: 550px;
+	max-width: 750px;
 }
 .wrapper {
 	/*display: flex;*/
@@ -54,7 +54,7 @@
 /* STEP ENTRIES */
 .scrollyteller .sticky {
 	color: white;
-	height: 500px;
+	height: 450px;
 	text-align: center;
 	width: 100%;
 	position: -webkit-sticky;
