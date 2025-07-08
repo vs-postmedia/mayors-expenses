@@ -50,14 +50,6 @@
         <!-- NOTE: add `class="no-pointer"` to iframe if touch scrolling doesn't work -->
     </div>
 
-    <!-- flourish logo -->
-    <div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/3706064/?utm_source=embed&utm_campaign=visualisation/3706064' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
-</section>
-
-<ul class="steps">
-    <Steps bind:currentStep={currentStep}/>
-</ul>
-
 <footer>
     <p class="source">Source:
         <a href="https://opendata.vancouver.ca/explore/dataset/council-budget-and-expenses/table/?sort=year" target="_blank">City of Vancouver</a>
@@ -66,11 +58,21 @@
     <div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/3706064/?utm_source=embed&utm_campaign=visualisation/3706064' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 </footer>
 
+</section>
+
+
+<ul class="steps">
+    <Steps bind:currentStep={currentStep}/>
+</ul>
+
 <!-- CSS -->
 <style>
     /* STEPS */
     section {
         position: relative;
+    }
+    footer {
+        margin-top: 75px;
     }
     .sticky { 
         align-items: center;
@@ -84,8 +86,14 @@
         pointer-events: none;
     }
     .steps {
-        margin-top: -110%;
+    margin-top: -110%;
         position: relative;
         z-index: 2;
+    }
+    @media only screen and (max-width: 450px) {
+    /* Style adjustments for viewports that meet the condition */
+         .steps {
+            margin-top: -150%; 
+        }
     }
 </style>
